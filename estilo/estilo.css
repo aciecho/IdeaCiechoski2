@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:ital@1&family=Square+Peg&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.encabezado {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  width: 100% !important;
+}
+.encabezado .navbar {
+  background-color: #a6d8be !important;
+}
+.encabezado .navbar .logobar {
+  padding-bottom: 5px;
+}
+.encabezado .navbar .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: #346b55;
+}
+.encabezado .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.encabezado .navbar-nav .nav-link {
+  color: #346b55;
+  font-family: "Playfair Display", serif;
+}/*# sourceMappingURL=estilo.css.map */
