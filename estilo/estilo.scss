@@ -14,6 +14,7 @@ $fuente1:'Dancing Script', cursive;
 $fuente2: 'Playfair Display', serif;
 $fuente3: 'Square Peg', cursive;
 
+// empieza header
 .encabezado{
     position:fixed;
     top: 0;
@@ -45,7 +46,7 @@ $fuente3: 'Square Peg', cursive;
         }
     }
 }
-
+// empieza index
 .index{
     background-color: $color2 !important;
     height: 100%;
