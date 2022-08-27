@@ -10,6 +10,7 @@
   top: 0;
   padding: 0;
   width: 100% !important;
+  z-index: 1000;
 }
 .encabezado .navbar {
   background-color: #a6d8be !important;
@@ -30,4 +31,56 @@
 .encabezado .navbar-nav .nav-link {
   color: #346b55;
   font-family: "Playfair Display", serif;
+}
+
+.index {
+  background-color: #d6cbbc !important;
+  height: 100%;
+  width: 100%;
+  padding: 150px 150px 50px 80px;
+}
+.index .pres {
+  display: inline-block;
+  width: 50vw;
+  padding-bottom: 50px;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+}
+.index .sye {
+  width: auto;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.index .sabmas {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.pie {
+  background-color: #a6d8be;
+}
+.pie .logopie {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+.pie a {
+  color: #346b55;
+}
+.pie .piered {
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .index .container {
+    display: flex;
+    justify-content: center;
+  }
+  .index .container .row {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
 }/*# sourceMappingURL=estilo.css.map */
