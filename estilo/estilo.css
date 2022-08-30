@@ -92,7 +92,12 @@
 }
 .servs .accordion .card .card-header .mb-0 .btn {
   text-decoration: none;
-  border-radius: 0;
+}
+
+.pie .list-unstyled {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
