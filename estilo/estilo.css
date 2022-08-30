@@ -74,6 +74,27 @@
   justify-content: space-between;
 }
 
+.servs {
+  background-color: #d6cbbc !important;
+  height: 100%;
+  width: 100%;
+  padding: 150px 150px 50px 80px;
+}
+.servs .accordion .card {
+  background-color: transparent;
+}
+.servs .accordion .card .card-header {
+  display: flex;
+  justify-content: center;
+}
+.servs .accordion .card .card-header .mb-0 {
+  font-family: "Playfair Display", serif;
+}
+.servs .accordion .card .card-header .mb-0 .btn {
+  text-decoration: none;
+  border-radius: 0;
+}
+
 @media screen and (min-width: 320px) and (max-width: 760px) {
   .index .container {
     display: flex;
@@ -82,5 +103,17 @@
   .index .container .row {
     display: flex;
     flex-direction: column-reverse !important;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 50px;
+  }
+  .index .container .row p {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .index .container .row .sabmas a {
+    font-size: 12px !important;
   }
 }/*# sourceMappingURL=estilo.css.map */
