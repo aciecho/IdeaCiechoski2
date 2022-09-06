@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+    <meta name="description" content="Esperamos poder resolver tus dudas con nuestro sitio de preguntas frecuentes.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -58,8 +59,72 @@
             </div>
         </nav>
     </header>
-    <main class="servs">
-
+    <main class="pregunte">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Metodos de pago
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        Los metodos de pago pueden ser en efectivo, tarjeta de debito o credito y Mercado Pago
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Servicios que ofrecemos
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        Ofrecemos diversos servicios como ortodoncia, extracciones, implantes, procedimientos esteticos, entre otros
+                        Si quiere saber mas haga clic <a href="../pages/servicios.html">aqui</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Donde nos encontramos
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        Nos encontramos en <a href="https://goo.gl/maps/M6UNRFf9esynSTZx8">Avenida Italia 4564, Montevideo, Uruguay</a>.
+                        Colectivos cercanos: 12, 85, 152, 60.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Como sacar turno
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        Los turnos unicamente se agendan por telefono al +589548656
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="pie footer">
         <div class="piecon container">

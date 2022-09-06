@@ -1,0 +1,23 @@
+Puse meta description y meta keywords en:
+- index:
+    Bienvenidos a nuestro consultorio. Vea nuestros servicios, conozcanos, resuelva sus consultas
+    odontologia, dolor dental, odontologo, guardia, diente, dentista, urgencia
+
+-servicios:
+    Conozca nuestros servicios de ortodoncia, endodoncia, periodoncia y odontologia estetica
+    ortodoncia, endodoncia, periodoncia, botox, acido hialuronico, estetica, caries, conducto, salud
+
+-nosotros:
+    Conozcanos, vea nuestras especialidades
+    doctor, odontologo, odontologia, eugenia souza, sergio souza
+
+-contacto:
+    Contactese con nosotros para asesorarlo en cuanto a servicios, procedimientos y precios
+    en contacto no encontre que podria ponerle en las keywords
+
+-faqs:
+    Esperamos poder resolver tus dudas con nuestro sitio de preguntas frecuentes
+    en faqs no me parecio que necesario que llevara keywords
+
+-login:
+    no me aparecio que correspondiera llevar description ni keywords

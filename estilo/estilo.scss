@@ -14,6 +14,13 @@ $fuente1:'Dancing Script', cursive;
 $fuente2: 'Playfair Display', serif;
 $fuente3: 'Square Peg', cursive;
 
+@mixin cuerpo {
+    background-color: $color2 !important;
+    height: 100%;
+    width: 100%;
+    padding: 150px 150px 50px 150px;
+}
+
 // empieza header
 .encabezado{
     position:fixed;
@@ -48,10 +55,7 @@ $fuente3: 'Square Peg', cursive;
 }
 // empieza index
 .index{
-    background-color: $color2 !important;
-    height: 100%;
-    width: 100%;
-    padding: 150px 150px 50px 80px;
+    @include cuerpo;
     .pres{
         display: inline-block;
         width: 50vw;
@@ -70,29 +74,9 @@ $fuente3: 'Square Peg', cursive;
         border-radius: 10px;
     }
 }
-.pie{
-    background-color: $color1;
-    .logopie{
-        font-family: $fuente1;
-        font-size: 30px;
-    }
-    a{
-        color: $color3;
-    }
-    .piered{
-        font-size: medium;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
-}
 .servs{
-    background-color: $color2 !important;
-    height: 100%;
-    width: 100%;
-    padding: 150px 150px 50px 80px;
-
+    @include cuerpo;
     .accordion{
         
         .card{
@@ -106,17 +90,115 @@ $fuente3: 'Square Peg', cursive;
                     text-decoration: none;
                 }
             }
+            .card-body{
+                display: flex;
+                text-align: auto;
+            }
+        }
+        }
+    }
+}
+.noso{
+    @include cuerpo;
+    
+    .container{
+        
+        .header{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            font-family: $fuente1;
+            font-size: 60px;
+            color: $color3;
+        }
+        .tarjetas{
+            display: flex;
+            justify-content: space-around;
+
+            
+            .card{
+                font-family: $fuente2;
+                background-color: transparent;
+                box-shadow: 0 10px 20px;
+
+                .profile{
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10px;
+                    img{
+                        border-radius: 20px;
+                    }
+                }
             }
         }
     }
 }
-
+.cont{
+    @include cuerpo;
+    .h1-responsive{
+        font-family: $fuente1;
+        color: $color3;
+        font-size: 60px;
+    }
+        .subti{
+        font-family: $fuente2;
+    }
+    .btn{
+        background-color: $color3;
+    }
+}
+.pregunte{
+    @include cuerpo;
+    .accordion{
+        
+        .card{
+            background-color: transparent;
+            .card-header{
+            display: flex;
+            justify-content: center;
+            .mb-0{
+                font-family: $fuente2;
+                .btn{
+                    text-decoration: none;
+                }
+            }
+            .card-body{
+                display: flex;
+                text-align: auto;
+            }
+        }
+        }
+    }
+}
+.login{
+    @include cuerpo;
+    .formu{
+        padding: 20px 300px;
+        button{
+            background-color: $color3;
+        }
+    }
+}
 .pie{
     .list-unstyled{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         
+    }
+    background-color: $color1;
+    .logopie{
+        font-family: $fuente1;
+        font-size: 30px;
+    }
+    a{
+        color: $color3;
+    }
+    .piered{
+        font-size: medium;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 760px){

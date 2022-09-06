@@ -37,7 +37,7 @@
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 80px;
+  padding: 150px 150px 50px 150px;
 }
 .index .pres {
   display: inline-block;
@@ -57,28 +57,11 @@
   border-radius: 10px;
 }
 
-.pie {
-  background-color: #a6d8be;
-}
-.pie .logopie {
-  font-family: "Dancing Script", cursive;
-  font-size: 30px;
-}
-.pie a {
-  color: #346b55;
-}
-.pie .piered {
-  font-size: medium;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .servs {
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 80px;
+  padding: 150px 150px 50px 150px;
 }
 .servs .accordion .card {
   background-color: transparent;
@@ -93,11 +76,118 @@
 .servs .accordion .card .card-header .mb-0 .btn {
   text-decoration: none;
 }
+.servs .accordion .card .card-header .card-body {
+  display: flex;
+  text-align: auto;
+}
 
+.noso {
+  background-color: #d6cbbc !important;
+  height: 100%;
+  width: 100%;
+  padding: 150px 150px 50px 150px;
+}
+.noso .container .header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: #346b55;
+}
+.noso .container .tarjetas {
+  display: flex;
+  justify-content: space-around;
+}
+.noso .container .tarjetas .card {
+  font-family: "Playfair Display", serif;
+  background-color: transparent;
+  box-shadow: 0 10px 20px;
+}
+.noso .container .tarjetas .card .profile {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.noso .container .tarjetas .card .profile img {
+  border-radius: 20px;
+}
+
+.cont {
+  background-color: #d6cbbc !important;
+  height: 100%;
+  width: 100%;
+  padding: 150px 150px 50px 150px;
+}
+.cont .h1-responsive {
+  font-family: "Dancing Script", cursive;
+  color: #346b55;
+  font-size: 60px;
+}
+.cont .subti {
+  font-family: "Playfair Display", serif;
+}
+.cont .btn {
+  background-color: #346b55;
+}
+
+.pregunte {
+  background-color: #d6cbbc !important;
+  height: 100%;
+  width: 100%;
+  padding: 150px 150px 50px 150px;
+}
+.pregunte .accordion .card {
+  background-color: transparent;
+}
+.pregunte .accordion .card .card-header {
+  display: flex;
+  justify-content: center;
+}
+.pregunte .accordion .card .card-header .mb-0 {
+  font-family: "Playfair Display", serif;
+}
+.pregunte .accordion .card .card-header .mb-0 .btn {
+  text-decoration: none;
+}
+.pregunte .accordion .card .card-header .card-body {
+  display: flex;
+  text-align: auto;
+}
+
+.login {
+  background-color: #d6cbbc !important;
+  height: 100%;
+  width: 100%;
+  padding: 150px 150px 50px 150px;
+}
+.login .formu {
+  padding: 20px 300px;
+}
+.login .formu button {
+  background-color: #346b55;
+}
+
+.pie {
+  background-color: #a6d8be;
+}
 .pie .list-unstyled {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.pie .logopie {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+.pie a {
+  color: #346b55;
+}
+.pie .piered {
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
