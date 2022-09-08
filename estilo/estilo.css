@@ -11,6 +11,7 @@
   padding: 0;
   width: 100% !important;
   z-index: 1000;
+  margin-bottom: 2px;
 }
 .encabezado .navbar {
   background-color: #a6d8be !important;
@@ -37,7 +38,7 @@
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 150px;
+  padding: 200px 20%;
 }
 .index .pres {
   display: inline-block;
@@ -61,7 +62,7 @@
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 150px;
+  padding: 200px 20%;
 }
 .servs .accordion .card {
   background-color: transparent;
@@ -85,7 +86,9 @@
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 150px;
+  padding: 200px 20%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .noso .container .header {
   display: flex;
@@ -111,13 +114,15 @@
 }
 .noso .container .tarjetas .card .profile img {
   border-radius: 20px;
+  width: 80%;
+  height: auto;
 }
 
 .cont {
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 150px;
+  padding: 200px 20%;
 }
 .cont .h1-responsive {
   font-family: "Dancing Script", cursive;
@@ -135,7 +140,7 @@
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 150px;
+  padding: 200px 20%;
 }
 .pregunte .accordion .card {
   background-color: transparent;
@@ -159,10 +164,10 @@
   background-color: #d6cbbc !important;
   height: 100%;
   width: 100%;
-  padding: 150px 150px 50px 150px;
+  padding: 200px 20%;
 }
 .login .formu {
-  padding: 20px 300px;
+  padding: 20px 10%;
 }
 .login .formu button {
   background-color: #346b55;
@@ -191,6 +196,9 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
+  .encabezado .navbar-brand {
+    font-size: 20px !important;
+  }
   .index .container {
     display: flex;
     justify-content: center;
